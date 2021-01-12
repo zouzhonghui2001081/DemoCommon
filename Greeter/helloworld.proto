@@ -33,6 +33,7 @@ service Greeter {
   rpc SayHello7 (HelloRequest) returns (HelloReply) {}  
   rpc SayHello8 (HelloRequest) returns (HelloReply) {} 
   rpc SayHello9 (HelloRequest) returns (HelloReply) {} 
+  rpc SayHello10 (HelloRequest) returns (HelloReply) {} 
 }
 
 // The request message containing the user's name.
